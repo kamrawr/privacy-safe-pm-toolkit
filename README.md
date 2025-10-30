@@ -196,7 +196,7 @@ Publish and enforce a PII deletion schedule (typically 12-24 months).
 
 ## 📄 License
 
-This toolkit is designed for public benefit. Built by [Community Consulting Partners LLC](https://github.com/isaiahkamrar) for multilingual and low-income communities.
+This toolkit is designed for public benefit. Built by [Isaiah Kamrar](https://github.com/kamrawr) for multilingual and low-income communities.
 
 ## 🤝 Contributing
 
