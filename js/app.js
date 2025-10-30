@@ -5,16 +5,16 @@ const App = {
     tabs: [
         { id: 'overview', label: 'Overview', component: Overview },
         { id: 'learn', label: 'Learn', component: Learn },
-        { id: 'business', label: 'Business Case', component: null },
-        { id: 'stake', label: 'Stakeholders', component: null },
-        { id: 'training', label: 'Training', component: null },
-        { id: 'comms', label: 'Comms Kit', component: null },
-        { id: 'inventory', label: 'Field Inventory', component: null },
-        { id: 'flow', label: 'Data Flow', component: null },
-        { id: 'report', label: 'Reporting', component: null },
-        { id: 'matrix', label: 'Game-Theory', component: null },
-        { id: 'evidence', label: 'Evidence', component: null },
-        { id: 'check', label: 'Audit Prep', component: null }
+        { id: 'business', label: 'Business Case', component: Business },
+        { id: 'stake', label: 'Stakeholders', component: Stakeholders },
+        { id: 'training', label: 'Training', component: Training },
+        { id: 'comms', label: 'Comms Kit', component: Comms },
+        { id: 'inventory', label: 'Field Inventory', component: Inventory },
+        { id: 'flow', label: 'Data Flow', component: Flow },
+        { id: 'report', label: 'Reporting', component: Reporting },
+        { id: 'matrix', label: 'Game-Theory', component: Matrix },
+        { id: 'evidence', label: 'Evidence', component: Evidence },
+        { id: 'check', label: 'Audit Prep', component: Audit }
     ],
 
     init() {
