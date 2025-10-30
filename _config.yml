@@ -1,0 +1,11 @@
+# This file ensures GitHub Pages serves files correctly
+# No special configuration needed - plain HTML site
+
+# Optional: Add metadata for GitHub
+title: Privacy-Safe Program Management Toolkit
+description: Client-side toolkit for designing privacy-protective energy assistance programs
+author: Community Consulting Partners LLC
+
+# Tell Jekyll to serve HTML as-is (no processing)
+markdown: kramdown
+plugins: []
