@@ -6,32 +6,38 @@
     <title>Privacy-Safe Program Management Toolkit</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/animations.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header role="banner">
+        <nav role="navigation" aria-label="Main navigation">
             <div class="nav-brand">
                 <span class="badge badge-primary">Privacy-Safe PM Toolkit</span>
                 <small class="nav-subtitle">Protect Communities • Meet Requirements • Build Trust</small>
             </div>
-            <div class="tabs" id="tabs"></div>
-            <button class="btn btn-primary" id="saveAll">
-                <span class="btn-icon">💾</span> Save
+            <div class="tabs" id="tabs" role="tablist" aria-label="Primary sections"></div>
+            <button class="btn btn-primary" id="saveAll" aria-label="Save all data locally">
+                <span class="btn-icon" aria-hidden="true">💾</span> Save
             </button>
         </nav>
     </header>
+                    <span class="btn-icon" aria-hidden="true">💾</span> Save
+                </button>
+            </div>
+        </nav>
+    </header>
     
-    <main id="app"></main>
+    <main id="app" role="main" aria-live="polite"></main>
     
-    <footer>
+    <footer role="contentinfo">
         <div class="footer-content">
             <p class="footer-notice">
-                <strong>Local-only:</strong> All data is stored in your browser's localStorage. 
+                <strong>🔒 Local-only:</strong> All data is stored in your browser's localStorage. 
                 Nothing is transmitted to external servers.
             </p>
             <p class="footer-meta">
                 Built for multilingual and low-income communities by 
-                <a href="https://github.com/isaiahkamrar" target="_blank">Community Consulting Partners LLC</a>
+                <a href="https://github.com/isaiahkamrar" target="_blank" rel="noopener noreferrer">Community Consulting Partners LLC</a>
             </p>
         </div>
     </footer>
@@ -39,6 +45,7 @@
     <!-- Core modules -->
     <script src="js/storage.js"></script>
     <script src="js/utils.js"></script>
+    <script src="js/interactions.js"></script>
     
     <!-- Component modules -->
     <script src="js/components/overview.js"></script>
