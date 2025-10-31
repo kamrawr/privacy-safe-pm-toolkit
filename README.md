@@ -1,5 +1,7 @@
 # Privacy-Safe Program Management Toolkit
 
+**🌐 [Launch Live App](https://kamrawr.github.io/privacy-safe-pm-toolkit/)** | [GitHub Repo](https://github.com/kamrawr/privacy-safe-pm-toolkit)
+
 A client-side web application for designing privacy-protective energy assistance programs that serve multilingual and low-income communities.
 
 ## 🎯 Purpose
